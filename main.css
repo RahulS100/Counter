@@ -1,0 +1,141 @@
+/*///////////////////////google font linking section////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+/*//////////////////////////////reset////////////////////////////*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+body {
+    background-color: rgba(243, 243, 231, 0.932);
+}
+
+/*///////////////////////////////navbar///////////////////////*/
+.navbar-container {
+    background-color: rgba(60, 158, 196, 0.788);
+    height: 70px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.nav-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 15px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*/////////////////////////main section////////////////////*/
+.main-section{
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    margin: 40px auto 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.171);
+}
+
+.count-point {
+    height: 250px;
+}
+
+.count-point-txt {
+    font-size: 12rem;
+    padding: 60px 0 0 0;
+}
+
+/*/////////////////////////////////counter btn's//////////////////////////////*/
+.counter-control-btn {
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add1 {
+    margin-right: 30px;
+}
+
+.rem1 {
+
+    margin-left: 30px;
+}
+
+.reset {
+    height: 50px;
+    width: 50px;
+}
+
+/*///////////btn's shared classes*/
+.same-prop{
+border: none;
+outline: none;
+border-radius: 100px;
+} 
+
+.same_w-h {
+    height: 60px;
+    width: 60px;
+}
+
+
+/*///////////////////////////////footer///////////////////////////*/
+.foot {
+    text-align: center;
+    height: 50px;
+    padding-top: 25px;
+    border-radius: 5px;
+    background-color: rgba(60, 158, 196, 0.788);
+    margin-top: 30px;
+}
+
+.foot-heading {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*///////////////////////////responsive///////////////////////////////*/
+/*////////////////////300px to 500px/////////////////////*/
+@media screen and (max-width: 500px) and (min-width: 300px) {
+    .main-section {
+        width: 320px;
+    }
+
+    .count-point-txt {
+    font-size: 8rem;
+    padding: 100px 0 0 0;
+    }
+}
+
+/*////////////////////500px to 800px/////////////////////*/
+@media screen and (max-width: 800px) and (min-width: 500px) {
+    .main-section {
+        width: 490px;
+    }
+
+    .count-point-txt {
+    font-size: 8rem;
+    padding: 100px 0 0 0;
+    }
+}
+
+/*////////////////////800px to 1000px/////////////////////*/
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    .main-section {
+        width: 550px;
+    }
+
+    .count-point-txt {
+    font-size: 10rem;
+    padding: 100px 0 0 0;
+    }
+}
+
