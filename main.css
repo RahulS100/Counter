@@ -84,6 +84,21 @@ border-radius: 100px;
     width: 60px;
 }
 
+/*//////////////information section (just some words for this conter)//////////////////*/
+.counter-info {
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+}
+
+.info-text {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(0, 0, 0, 0.800);
+}
+
+.head-thanks {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 
 /*///////////////////////////////footer///////////////////////////*/
 .foot {
@@ -92,7 +107,6 @@ border-radius: 100px;
     padding-top: 25px;
     border-radius: 5px;
     background-color: rgba(60, 158, 196, 0.788);
-    margin-top: 30px;
 }
 
 .foot-heading {
