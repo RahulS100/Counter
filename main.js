@@ -103,13 +103,9 @@ function del(index) {
 
 ///update function to update while reloading dom
 function update() {
-            if(localStorage.getItem('counting') == null) {
-            counting = []
-            }
-            else {
+            if(localStorage.getItem('counting') != null) {
             counting_json_str = localStorage.getItem('counting');
             counting = JSON.parse(counting_json_str);
-            }
 
             counting.forEach((element, index) => {
                 str_card += `<div class="widget-count" id="main-wid">
@@ -119,4 +115,5 @@ function update() {
                 });
                 container_widget.innerHTML = str_card;
                 str_card = '';
+            }
 }
