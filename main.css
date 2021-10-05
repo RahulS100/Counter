@@ -15,7 +15,7 @@ body {
 
 /*///////////////////////////////navbar///////////////////////*/
 .navbar-container {
-    background-color: rgba(60, 158, 196, 0.788);
+    background-color: rgb(23, 162, 218);
     height: 70px;
     text-align: center;
     border-radius: 5px;
@@ -32,7 +32,7 @@ body {
 /*/////////////////////////main section////////////////////*/
 .main-section{
     text-align: center;
-    height: 400px;
+    height: 450px;
     width: 600px;
     margin: 40px auto 0 auto;
     background-color: white;
@@ -99,6 +99,51 @@ border-radius: 100px;
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*///////////////////////////////count widget///////////////////////////*/
+.widget-count {
+    margin: 20px 40px 5px 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.171);
+}
+
+.del {
+    outline: none;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.count-num {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 15px;
+}
+
+.fa-trash {
+    color: red;
+}
+
+.save-btn {
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+    background-color: rgba(23, 163, 218, 0.9);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.save-btn:hover {
+    background-color: rgb(23, 162, 218);
+}
+
+
 
 /*///////////////////////////////footer///////////////////////////*/
 .foot {
@@ -106,7 +151,7 @@ border-radius: 100px;
     height: 50px;
     padding-top: 25px;
     border-radius: 5px;
-    background-color: rgba(60, 158, 196, 0.788);
+    background-color: rgb(23, 162, 218);
 }
 
 .foot-heading {
